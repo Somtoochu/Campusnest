@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Results — CampusNest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 32 32" fill="none">
+        <path d="M4 16L16 6L28 16" stroke="#0B5D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 14V26H24V14" stroke="#0B5D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13 26V19H19V26" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      CampusNest
+    </a>
+    <ul class="nav-links">
+      <li><a href="results.html" class="active">Browse</a></li>
+      <li><a href="index.html#how-it-works">How It Works</a></li>
+      <li><a href="list-property.html">For Landlords</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="login.html" class="btn btn-ghost">Log In</a>
+      <a href="list-property.html" class="btn btn-amber">List Your Property</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="results-layout">
+
+    <div class="results-col">
+      <a href="index.html" class="back-link">← Refine search</a>
+      <div class="results-header">
+        <h2 id="resultsTitle">Rooms near you</h2>
+        <span id="resultsCount"></span>
+      </div>
+      <div class="feed" id="feed"></div>
+      <div class="empty-state hidden" id="emptyState">
+        <div class="icon">🏠</div>
+        <p>No rooms match your filters yet.<br>Try widening your budget or removing an amenity.</p>
+      </div>
+    </div>
+
+    <div class="map-panel">
+      <div class="map-grid-lines"></div>
+      <div class="map-label">📍 Campus Axis Map</div>
+      <div id="mapPins"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Inline video preview modal -->
+<div class="modal-backdrop" id="videoModal">
+  <div class="modal-content">
+    <button class="modal-close" id="closeVideoModal">✕</button>
+    <video id="modalVideo" controls></video>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <strong>CampusNest</strong> — Trust, safety, and transparency in student off-campus housing.
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/results.js"></script>
+</body>
+</html>

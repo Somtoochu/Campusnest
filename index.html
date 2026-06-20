@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampusNest — Find Your Room. Watch It First. Trust It Fully.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 32 32" fill="none">
+        <path d="M4 16L16 6L28 16" stroke="#0B5D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 14V26H24V14" stroke="#0B5D3B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13 26V19H19V26" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      CampusNest
+    </a>
+    <ul class="nav-links">
+      <li><a href="results.html" class="active">Browse</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="list-property.html">For Landlords</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="login.html" class="btn btn-ghost">Log In</a>
+      <a href="list-property.html" class="btn btn-amber">List Your Property</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>Find Your Room. Watch It First. Trust It Fully.</h1>
+    <p class="subhead">Video-verified student housing across BDPA, Osasogie &amp; Ekosodin — message real landlords directly, no agents, no guesswork.</p>
+  </div>
+</header>
+
+<div class="container">
+  <form class="search-card" id="searchForm">
+    <div class="search-field">
+      <label for="location">Where to?</label>
+      <select id="location" name="location">
+        <option value="">View All Axes</option>
+        <option value="BDPA">BDPA</option>
+        <option value="Osasogie">Osasogie</option>
+        <option value="Ekosodin">Ekosodin</option>
+      </select>
+    </div>
+
+    <div class="search-field">
+      <label for="budget">Per session budget</label>
+      <input type="range" id="budget" name="budget" min="50000" max="500000" step="10000" value="500000">
+      <span class="budget-value">Up to <span id="budgetDisplay">₦500,000</span></span>
+    </div>
+
+    <div class="search-field">
+      <label>Must-have amenities</label>
+      <div class="chip-group">
+        <label class="chip">
+          <input type="checkbox" name="amenity" value="video"> Video Walkthrough Available
+        </label>
+        <label class="chip">
+          <input type="checkbox" name="amenity" value="water"> 24/7 Water
+        </label>
+        <label class="chip">
+          <input type="checkbox" name="amenity" value="power"> Constant Electricity
+        </label>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-amber">Search Verified Rooms</button>
+  </form>
+</div>
+
+<section class="trust-strip">
+  <div class="container">
+    <div class="section-eyebrow">Why CampusNest</div>
+    <h2 class="section-title">Built to remove the guesswork from your next room</h2>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="icon">🎥</div>
+        <h3>Video Verified, Not Just Photographed</h3>
+        <p>Every "Video Verified" listing was physically inspected and filmed by a CampusNest student rep — not the landlord. What you see is what you get.</p>
+      </div>
+      <div class="trust-item">
+        <div class="icon">💬</div>
+        <h3>Crowd-Sourced, Real Resident Reviews</h3>
+        <p>Tagged reviews on water schedules, power reliability, and more — written by students who actually lived there, not marketing copy.</p>
+      </div>
+      <div class="trust-item">
+        <div class="icon">📞</div>
+        <h3>Direct Landlord Contact, No Middlemen</h3>
+        <p>Message verified landlords straight on WhatsApp or call. No agent fees, no exploitation, no disappearing acts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="for-landlords" class="trust-strip" style="padding-top:0;">
+  <div class="container">
+    <div class="section-eyebrow">For Landlords</div>
+    <h2 class="section-title">List your property and reach verified student tenants</h2>
+    <p style="max-width:560px;color:var(--ink-soft);margin-top:10px;">Request a free video inspection from a CampusNest student rep to earn the "Video Verified" badge — listings with it rent out faster.</p>
+    <a href="#" class="btn btn-emerald-outline" style="margin-top:18px;">Request a Listing Inspection</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <strong>CampusNest</strong> — Trust, safety, and transparency in student off-campus housing.
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
