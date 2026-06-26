@@ -52,6 +52,18 @@ function wireModalClose(backdropEl, closeBtnEl, onClose) {
     if (e.target === backdropEl) close();
   });
   document.addEventListener("keydown", (e) => {
+    
     if (e.key === "Escape" && backdropEl.classList.contains("open")) close();
+  });
+}
+
+// ---------- Mobile hamburger menu toggle ----------
+const hamburgerBtn = document.getElementById("hamburgerBtn");
+const navCollapse = document.getElementById("navCollapse");
+
+if (hamburgerBtn && navCollapse) {
+  hamburgerBtn.addEventListener("click", () => {
+    hamburgerBtn.classList.toggle("open");
+    navCollapse.classList.toggle("open");
   });
 }
