@@ -16,14 +16,14 @@ const LISTINGS = [
     videoVerified: true,
     inspector: "Chiamaka O.",
     inspectedDate: "May 14, 2026",
-    video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    video: "videos/Treasure_lodge.mp4",
     photos: [
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
-      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400",
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=400"
+      "images/Screenshot (40).png",
+      "images/Screenshot (41).png",
+      "images/Screenshot (42).png",
+      "images/Screenshot (43).png"
     ],
-    cover: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+    cover: "images/Screenshot (68).png",
     lat: 28, lng: 36,
     reviews: [
       { name: "Verified Resident", rating: 5, tag: "💧 Water", comment: "Reliable mornings only, fill your tank early." },
@@ -43,14 +43,14 @@ const LISTINGS = [
     videoVerified: true,
     inspector: "Tunde A.",
     inspectedDate: "Jun 2, 2026",
-    video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    video: "videos/Comfort_villa.mp4",
     photos: [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=400",
-      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=400",
-      "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=400",
-      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=400"
+      "images/Screenshot (44).png",
+      "images/Screenshot (45).png",
+      "images/Screenshot (46).png",
+      "images/Screenshot (47).png"
     ],
-    cover: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800",
+    cover: "images/Screenshot (64).png",
     lat: 55, lng: 62,
     reviews: [
       { name: "Verified Resident", rating: 4, tag: "💧 Water", comment: "Never runs dry, good pressure." },
@@ -70,14 +70,14 @@ const LISTINGS = [
     videoVerified: false,
     inspector: null,
     inspectedDate: null,
-    video: null,
+    video: "videos/Grace_court.mp4",
     photos: [
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=400",
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400",
-      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=400",
-      "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=400"
+      "images/Screenshot (48).png",
+      "images/Screenshot (49).png",
+      "images/Screenshot (50).png",
+      "images/Screenshot (51).png"
     ],
-    cover: "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
+    cover: "images/Screenshot (58).png",
     lat: 70, lng: 25,
     reviews: [
       { name: "Verified Resident", rating: 5, tag: "💧 Water", comment: "Best water supply in the axis, zero complaints." }
@@ -96,14 +96,14 @@ const LISTINGS = [
     videoVerified: true,
     inspector: "Chiamaka O.",
     inspectedDate: "May 28, 2026",
-    video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    video: "videos/Unity_hostel.mp4",
     photos: [
-      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400",
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400",
-      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=400"
+      "images/Screenshot (52).png",
+      "images/Screenshot (53).png",
+      "images/Screenshot (54).png",
+      "images/Screenshot (55).png"
     ],
-    cover: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800",
+    cover: "images/Screenshot (49).png",
     lat: 33, lng: 48,
     reviews: [
       { name: "Verified Resident", rating: 3, tag: "💧 Water", comment: "Be ready to fetch — no running water in rooms." }
@@ -122,14 +122,14 @@ const LISTINGS = [
     videoVerified: true,
     inspector: "Tunde A.",
     inspectedDate: "Jun 10, 2026",
-    video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    video: "videos/Royal_heights.mp4",
     photos: [
-      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=400",
-      "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=400",
-      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=400",
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=400"
+      "images\Screenshot (60).png",
+      "images\Screenshot (62).png",
+      "images\Screenshot (63).png",
+      "images\Screenshot (64).png"
     ],
-    cover: "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800",
+    cover: "images/Screenshot (50).png",
     lat: 50, lng: 75,
     reviews: [
       { name: "Verified Resident", rating: 5, tag: "⚡ Power", comment: "Inverter never lets you down, worth the price." },
@@ -151,16 +151,16 @@ const LISTINGS = [
     inspectedDate: null,
     video: null,
     photos: [
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400",
-      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=400",
-      "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=400",
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=400"
+      "images/Screenshot (67).png",
+      "images/Screenshot (66).png",
+      "images/Screenshot (65).png",
+      "images/Screenshot (63).png"
     ],
-    cover: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800",
+    cover: "images/Screenshot (45).png",
     lat: 78, lng: 40,
     reviews: [
       { name: "Verified Resident", rating: 3, tag: "⚡ Power", comment: "Bring a backup lamp, light is unreliable." }
-    ]
+   ]
   }
 ];
 
