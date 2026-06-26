@@ -29,6 +29,7 @@
 html, body {
   margin: 0;
   padding: 0;
+   overflow-x: hidden;
   background: var(--bg);
   color: var(--ink);
   font-family: 'Inter', -apple-system, sans-serif;
@@ -98,6 +99,20 @@ img { max-width: 100%; display: block; }
 }
 .nav-links a:hover, .nav-links a.active { color: var(--emerald); }
 .nav-actions { display: flex; gap: 12px; align-items: center; }
+@media (max-width: 700px) {
+  .nav-links {
+    display: none;
+  }
+  .navbar .container {
+    height: 64px;
+  }
+  .nav-actions .btn-ghost {
+    display: none;
+  }
+  .logo {
+    font-size: 17px;
+  }
+}
 
 .btn {
   display: inline-flex;
